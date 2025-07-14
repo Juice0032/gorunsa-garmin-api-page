@@ -112,10 +112,11 @@ footer {
 }
 
 /* BUTTONS */
-button {
+.button-link {
+  display: inline-block;
   padding: 10px 20px;
-  background-color: #341f97;
-  color: white;
+  background: linear-gradient(135deg, #1dd1a1 0%, #45d6f7 100%);
+  color: #666;
   border: none;
   border-radius: 8px;
   font-size: 1rem;
@@ -124,7 +125,7 @@ button {
   animation: fadeInUp 1.7s ease forwards;
 }
 
-button:hover {
+.button-link:hover {
   transform: scale(1.05);
   box-shadow: 0 5px 20px rgba(52, 31, 151, 0.4);
 }
